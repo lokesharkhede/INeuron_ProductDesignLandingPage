@@ -1,0 +1,538 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/*nav*/
+
+nav{
+    background-color: #121212;
+    color: aliceblue;
+    padding-top: 2vh;
+}
+
+.nav-items{
+    margin-right: 3vw;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*intro*/
+
+.intro{
+    background-color: #121212;
+    color: aliceblue;
+}
+
+.profile-img img{
+    width: 50vw;
+}
+
+.profile-img{
+    width: 50vw;
+}
+
+.description{
+    width: 50vw;
+}
+
+.description p{
+    width: 38vw;
+}
+
+.description h3{
+    color: #cb122b;
+    font-weight: bold;
+}
+
+.description button{
+    width: 9vw;
+    height: 6vh;
+    background-color: #cb122b;
+    color: aliceblue;
+    border-style: none;
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+    font-size: 78%;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*skill*/
+
+.skilsexperience{
+    background: linear-gradient(to right,  #302f2f 0%,#302f2f 50%,#121212 50%,#121212 100%);
+}
+
+.skill-1{
+    background-color: #201f1f;
+    width: 20vw;
+}
+
+.skill-2{
+    background-color: #cb122b;
+    width: 20vw;
+}
+
+.skill-3{
+    background-color: #201f1f;
+    width: 20vw;
+}
+
+.skill-1 h3{
+    color:aliceblue;
+    margin-left: 5%;
+}
+
+.skill-1 p{
+    color:aliceblue;
+    width: 16vw;
+    margin-left: 5%;
+}
+
+.skill-2 h3{
+    color:aliceblue;
+    margin-left: 5%;
+}
+
+.skill-2 p{
+    color:aliceblue;
+    width: 16vw;
+    margin-left: 5%;
+}
+
+.skill-3 h3{
+    color:aliceblue;
+    margin-left: 5%;
+}
+
+.skill-3 p{
+    color:aliceblue;
+    width: 16vw;
+    margin-left: 5%;
+}
+
+.skills-knowmore{
+    color: #cb122b
+}
+
+.small-white{
+    color: aliceblue;
+}
+
+.skills-horizontalline{
+    border-top: 3px solid;
+    width: 6px;
+}
+
+.arrow{
+    border: solid;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.skills-knowmore-pointer{
+    display: flex;
+    align-items: center;
+}
+
+.skills-knowmore{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding-bottom: 6%;
+    margin-left: 5%;
+}
+
+.skill-1 img{
+    padding-top: 4%;
+}
+
+.skill-2 img{
+    padding-top: 4%;
+}
+
+.skill-3 img{
+    padding-top: 4%;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;  
+    gap: 4vw;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+/*experience*/
+
+.experience-year{
+    width: 40vw;
+    text-align: center;
+}
+
+.experience-year h1{
+    color: #cb122b;
+    font-size: 5vw;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 20vw;
+}
+
+.experience-year h3{
+    color: aliceblue;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 20vw;
+}
+
+.experience-card{
+    width: 50vw;
+}
+
+.experience-card1{
+    background-color: #201f1f;
+    color: #cb122b;
+    width: 20vw;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.experience-card1 h2{
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 0;
+}
+
+.experience-card1 p{
+    color: aliceblue;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.experience-card2{
+    background-color: #201f1f;
+    color: #cb122b;
+    width: 20vw;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.experience-card2 h2{
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 0;
+}
+
+.experience-card2 p{
+    color: aliceblue;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.experience-card3{
+    background-color: #201f1f;
+    color: #cb122b;
+    width: 20vw;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.experience-card3 h2{
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 0;
+}
+
+.experience-card3 p{
+    color: aliceblue;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.experience-card4{
+    background-color: #201f1f;
+    color: #cb122b;
+    width: 20vw;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.experience-card4 h2{
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 0;
+}
+
+.experience-card4 p{
+    color: aliceblue;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.experience-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
+
+.experience{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    padding-bottom: 5%;
+}
+
+/*products*/
+
+.products{
+    background-color: #121212;
+    padding-top: 5vh;
+}
+
+.products-heading-description h2{
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.products-heading-description p{
+    color: aliceblue;
+    margin-bottom: 5vh;
+}
+
+.products-heading button{
+    width: 9vw;
+    height: 6vh;
+    background-color: #cb122b;
+    color: aliceblue;
+    border-style: none;
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+    font-size: 78%;
+}
+
+.products-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.product-card1{
+    width: 44vw;
+    background-color: #302f2f;
+}
+
+.product-card1 img{
+    width: 42vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.product-card1 h3{
+    background-color: #121212;
+    color: aliceblue;
+    margin: 0;
+    padding-top: 1vw;
+    padding-bottom: 4px;
+}
+
+.products-knowmore{
+    background-color: #121212;
+    color: #cb122b;
+}
+
+.products-horizontalline{
+    border-top: 3px solid;
+    width: 6px;
+}
+
+.products-knowmore-pointer{
+    display: flex;
+    align-items: center;
+}
+
+.products-knowmore{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding-bottom: 3%;
+    
+}
+
+.product-card2{
+    width: 44vw;
+    background-color: #302f2f;
+}
+
+.product-card2 img{
+    width: 42vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.product-card2 h3{
+    background-color: #121212;
+    color: aliceblue;
+    margin: 0;
+    padding-top: 1vw;
+    padding-bottom: 4px;
+}
+
+.product-card3{
+    width: 44vw;
+    background-color: #302f2f;
+}
+
+.product-card3 img{
+    width: 42vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.product-card3 h3{
+    background-color: #121212;
+    color: aliceblue;
+    margin: 0;
+    padding-top: 1vw;
+    padding-bottom: 4px;
+}
+
+.product-card4{
+    width: 44vw;
+    background-color: #302f2f;
+}
+
+.product-card4 img{
+    width: 42vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.product-card4 h3{
+    background-color: #121212;
+    color: aliceblue;
+    margin: 0;
+    padding-top: 1vw;
+    padding-bottom: 4px;
+}
+
+.product-cards{
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 2vw;
+    margin-left: 5vw;
+    margin-left: 5vw;
+}
+
+/*contact*/
+
+.contact{
+    background-color: #121212;
+    color: aliceblue;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.contact-body{
+    background-color: #302f2f;
+}
+
+.contact-body-description{
+    text-align: left;
+}
+
+.contact-body-description h1{
+    margin: 0;
+    padding-top: 8vh;
+    padding-bottom: 2vh;
+}
+
+.contact-body-description p{
+    margin: 0;
+    padding-bottom: 8vh;  
+    width: 30vw;
+}
+
+.contact-body button{
+    width: 9vw;
+    height: 6vh;
+    background-color: #cb122b;
+    color: aliceblue;
+    border-style: none;
+    font-size: 78%;
+}
+
+.contact-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+
+.contact-navbar{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.contact-navbar-item{
+    margin-left: 4vw;
+}
+
+/*footer*/
+
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: #201f1f;
+    gap: 25vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.footer-logo{
+    margin-left: 10vw;
+}
